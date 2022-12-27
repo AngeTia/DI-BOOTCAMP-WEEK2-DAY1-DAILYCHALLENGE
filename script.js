@@ -14,7 +14,7 @@ const fruits = ["Banana", "Apples", "Oranges", "Blueberries"];
 fruits.shift();//Supprime le premier élément de ma liste
 fruits.sort();//Trie les éléments par ordre alphabetique
 fruits.push("Kiwi");//Ajoute "Kiwi" à la fin de la liste
-delete fruits[1];//Supprime l'élément à l'index 1
+fruits.splice(1,1);//Supprime l'élément à l'index 1
 fruits.reverse();//Renverse les éléments de la liste
 console.log(fruits);
 
